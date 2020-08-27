@@ -21,6 +21,7 @@ import os
 from difflib import SequenceMatcher
 import datetime
 import pickle
+import win32api,win32ui
 import subprocess
 
 IGNORED_FILE_EXTENSIONS=["xlam","dotm"] #files with these extensions are not reopened even if detected during session save
@@ -689,7 +690,7 @@ class window():
 
 """--------------------BEGIN: FULLSCREEN MESSAGE-----------------------"""
 
-import win32api,win32ui
+
 
 FULLSCREEN_MESSAGE = ""
 FULLSCREEN_TEXTCOLOR = (0, 0, 0)
