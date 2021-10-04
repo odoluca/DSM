@@ -1159,7 +1159,7 @@ class desktop_session():
 
 """--------------------BEGIN: MENU-----------------------"""
 
-import infi.systray
+import infi.systray #from https://github.com/MagTun/infi.systray
 
 
 
